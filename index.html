@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Survey Project</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">H-E-B Survey</h1>
+    <p id="description">Thank you for helping us improve our service</p>
+    
+    <form id="survey-form">
+      <fieldset>
+        <label class="first_field" id="name-label" for="Name">Enter Your Name: <input id="name" name="firstLastname" type="text" required placeholder="First and last Name"></label>
+
+        <label class="first_field" id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" required placeholder="example@gmail.com"></label>
+
+        <label class="first_field" id="number-label" for="number">Age(optional): <input id="number" name="age" type="number" min="13" max="120" placeholder="18"></label>
+        </fieldset>
+        <fieldset>
+          <legend>Which store locations do you shop at?</legend>
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one below)</option>
+            <option value="1">Texas Avenue</option>
+            <option value="2">Jones Crossing</option>
+            <option value="3">Tower Point Market</option>
+            <option value="4">Tejas Center</option>
+          </select>
+
+      </fieldset>
+      <fieldset>
+        <legend>Would you recommend H-E-B to a family member/friend?</legend>
+        <label for="love-Heb">
+          <input class="department" id="love-Heb" name="recommendation" type="radio" value="yes" checked > Of course, I love H-E-B!
+        </label>
+        <label for="maybe">
+          <input class="department" id="maybe" name="recommendation" type="radio" value="maybe"> Maybe
+        </label>
+        <label for="no">
+          <input class="department" id="no" name="recommendation" type="radio" value="no"> No
+        </label>
+      </fieldset>
+      <fieldset id="checks">
+        <legend>Where would you like us to improve?</legend>
+        <label for="service">
+          <input class="department" id="service" name="service" type="checkbox" value="service"> Service
+        </label>
+        <label for="produce">
+          <input class="department" id="produce" name="produce" type="checkbox" value="produce"> Produce
+        </label>
+        <label for="meat">
+          <input class="department" id="meat" name="meat" type="checkbox" value="meat"> Meat Market
+        </label>
+        <label for="dairy">
+          <input class="department" id="dairy" name="dairy" type="checkbox" value="dairy"> Dairy
+        </label>
+        <label for="deli">
+          <input class="department" id="deli" name="deli" type="checkbox" value="deli"> Deli
+        </label>
+        <label for="grocery">
+          <input class="department" id="grocery" name="grocery" type="checkbox" value="grocery"> General grocery
+        </label>
+        <label for="meds">
+          <input class="department" id="meds" name="meds" type="checkbox" value="meds"> Pharmacy
+        </label>
+        <label for="other">Other:
+          <input class="department" id="other" name="other" type="text"> 
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have any extra comments or suggestions?</legend>
+        <textarea id="comments" name="comments" rows="3" cols="40" placeholder="Enter comments here..."></textarea>
+      </fieldset>
+      <input id="submit" type="submit">
+    </form>
+  </body>
+
+</html>
