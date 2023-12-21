@@ -1,2 +1,4 @@
 # H-E-B-Customer-Survey
 A robust survey form that evaluates a customer's needs after they have shopped at H-E-B, specifically, in College Station, Texas. The purpose of this form is further practice in implementing HTML and CSS elements in real-life projects.
+
+This project is being created through the practices and teachings from FreeCodeCamp. This project is part of a certification in the responsive web design course which teaches how to use HTML and CSS in ones personal projects. I am creating this H-E-B survey form as a means of practicing the front end skills that I have learned so far, so take note that this project does not have any real actions upon submitting. It is also important to note that this project does not have any relation or partnership with H-E-B. This is merely a fun, simple personal project that is being used for my own evaluation of skills in HTML and CSS.
